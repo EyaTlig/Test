@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./static/images/favicon.jpg" type="image/png">
+    <link rel="stylesheet" href="./static/style/style.css">
+
+    <title>Formulaire de Connexion</title>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <img src="./static/images/logo.webp" alt="logo">
+            <h1>Welcome Back</h1>
+            <p>Allows you to pay online at all applications and websites that accept MasterCard cards</p>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="at least 8 characters" required minlength="8">
+                </div>
+                <div class="remember-me">
+                    <label>
+                        <input type="checkbox" name="remember" required> Remember Me
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-btn">Log In</button>
+                <button type="button" class="google-btn">
+                    <img src="./static/images/google.png" alt="Google logo">
+                    Sign in with Google
+                </button>
+                <div class="create-account">
+                    <p>Not registered yet? <a href="#">Create an Account</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="image-container">
+            <div class="image-wrapper"></div>
+            <div class="text-overlay">
+                <h2>VitalFlow Health and Fitness</h2>
+                <p>Welcome to Vitalflow, where wellness meets motivation. We believe in the power of small consistent steps towards a healthier lifestyle</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
